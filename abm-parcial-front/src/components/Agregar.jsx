@@ -15,7 +15,7 @@ export const Agregar = () => {
 
   const handleSubmit = async (e) =>{
       if (data.titulo === '' || data.autor === '' || data.edicion <= 0) {
-            alert('Todos los campos son obligatorios')
+            alert('Todos los campos son obligatorios y edicion no puede ser 0 o menor')
             return
       }    
       e.preventDefault()
