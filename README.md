@@ -2,6 +2,30 @@
 
 _El back fue creado con node, express y javascript, el front con react, javascript, bootstrap_
 
+## Crear la base de datos
+_Hay que crearla usando el siguiente script en mysql_
+
+CREATE SCHEMA `library` ;
+
+USE `library`;
+
+
+DROP TABLE IF EXISTS `books`;
+
+CREATE TABLE `library`.`books` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `titulo` VARCHAR(100) NULL,
+  `autor` VARCHAR(100) NULL,
+  `edicion` INT NULL,
+  PRIMARY KEY (`id`));
+
+
+
+INSERT INTO books(titulo, autor, edicion) VALUES ('El Patito Feo', 'Hans Christian Andersen', 5), ('Cuentos de la Selva', 'Horacio Quiroga', 7);
+
+
+
+
 ## Comenzando 🚀
 
 _Hay que abrir ambas carpetas con visual studio la del backend y frontend y installar las dependencias de node con **npm install**_
