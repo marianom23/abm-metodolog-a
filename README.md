@@ -4,7 +4,7 @@ _El back fue creado con node, express y javascript, el front con react, javascri
 
 ## Comenzando 🚀
 
-_Hay que abrir ambas carpetas con visual studio la del backend y frontend y installar las dependencias de node con *npm install*_
+_Hay que abrir ambas carpetas con visual studio la del backend y frontend y installar las dependencias de node con **npm install**_
 
 Mira **Deployment** para conocer como desplegar el proyecto.
 
