@@ -1,10 +1,10 @@
 # ABM Parcial Metodología
 
-_El back fue creado con node, exprees y javascript, el front con react, javascript, bootstrap_
+_El back fue creado con node, express y javascript, el front con react, javascript, bootstrap_
 
 ## Comenzando 🚀
 
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
+_Hay que abrir ambas carpetas con visual studio la del backend y frontend y installar las dependencias de node con *npm install*_
 
 Mira **Deployment** para conocer como desplegar el proyecto.
 
