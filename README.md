@@ -43,4 +43,5 @@ _En la terminal del front luego de instalar las dependencias de node tipear:_
 ```
 npm start
 ```
+## Y con eso ya se puede manipular el abm de libros.
 
