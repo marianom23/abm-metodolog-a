@@ -105,7 +105,7 @@ export const Grilla = () => {
                         </div>
                         <div className="mb-3">
                             <label htmlFor="edicion" className="form-label">edicion</label>
-                            <input value={dataModal.edicion} name="edicion" onChange={handleChange} type="text" id="edition" className="form-control"/>
+                            <input value={dataModal.edicion} name="edicion" onChange={handleChange} type="number" id="edition" className="form-control"/>
                         </div>
                     </Modal.Body>
                     <Modal.Footer>
