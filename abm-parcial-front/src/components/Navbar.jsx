@@ -19,7 +19,7 @@ export const Navbar = () => {
                         className={() => 'nav-item nav-link'}
                         to="/agregar"
                     >
-                        Agregar Instrumento
+                        Agregar
                     </NavLink>
                     <NavLink 
                         className={() => 'nav-item nav-link'}
