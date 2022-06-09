@@ -20,7 +20,7 @@ CREATE TABLE `library`.`books` (
   INSERT INTO books(titulo, autor, edicion) VALUES ('El Patito Feo', 'Hans Christian Andersen', 5), ('Cuentos de la Selva', 'Horacio Quiroga', 7);
 ```
 
-## Comenzando 🚀
+## Instalar dependencias de node
 
 _Hay que abrir ambas carpetas con visual studio la del backend y frontend y installar las dependencias de node con:_
 
