@@ -16,15 +16,18 @@ CREATE TABLE `library`.`books` (
   `autor` VARCHAR(100) NULL,
   `edicion` INT NULL,
   PRIMARY KEY (`id`));
+  
+  INSERT INTO books(titulo, autor, edicion) VALUES ('El Patito Feo', 'Hans Christian Andersen', 5), ('Cuentos de la Selva', 'Horacio Quiroga', 7);
 ```
-INSERT INTO books(titulo, autor, edicion) VALUES ('El Patito Feo', 'Hans Christian Andersen', 5), ('Cuentos de la Selva', 'Horacio Quiroga', 7);
-
-
-
 
 ## Comenzando 🚀
 
-_Hay que abrir ambas carpetas con visual studio la del backend y frontend y installar las dependencias de node con **npm install**_
+_Hay que abrir ambas carpetas con visual studio la del backend y frontend y installar las dependencias de node con:_
+
+```
+npm install
+```
+
 
 Mira **Deployment** para conocer como desplegar el proyecto.
 
