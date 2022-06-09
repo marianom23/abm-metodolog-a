@@ -5,11 +5,9 @@ _El back fue creado con node, express y javascript, el front con react, javascri
 ## Crear la base de datos
 _Hay que crearla usando el siguiente script en mysql_
 
+```
 CREATE SCHEMA `library` ;
-
 USE `library`;
-
-...
 DROP TABLE IF EXISTS `books`;
 
 CREATE TABLE `library`.`books` (
@@ -18,9 +16,7 @@ CREATE TABLE `library`.`books` (
   `autor` VARCHAR(100) NULL,
   `edicion` INT NULL,
   PRIMARY KEY (`id`));
-...
-
-
+```
 INSERT INTO books(titulo, autor, edicion) VALUES ('El Patito Feo', 'Hans Christian Andersen', 5), ('Cuentos de la Selva', 'Horacio Quiroga', 7);
 
 
